@@ -1,3 +1,5 @@
+package HomeWork;
+
 import java.util.Scanner;
 import java.util.SortedMap;
 

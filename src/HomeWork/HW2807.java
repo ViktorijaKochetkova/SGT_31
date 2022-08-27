@@ -1,3 +1,5 @@
+package HomeWork;
+
 import java.util.Arrays;
 
 public class HW2807 {
