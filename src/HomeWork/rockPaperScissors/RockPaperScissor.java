@@ -25,29 +25,21 @@ class Play{
         String tie = "Tie!";
         String invalid = "Invalid enter";
         if (player1.equals(player2)) {
-            System.out.println();
             return tie;
         } else if (player1.equals(rock) && player2.equals(paper)) {
-            System.out.println();
             return win2;
         } else if (player1.equals(paper) && player2.equals(rock)) {
-            System.out.println();
             return win1;
         } else if (player1.equals(scissors) && player2.equals(paper)) {
-            System.out.println();
             return win1;
         } else if (player1.equals(paper) && player2.equals(scissors)) {
-            System.out.println();
-            return win2;
+             return win2;
         } else if (player1.equals(scissors) && player2.equals(rock)) {
-            System.out.println();
             return win2;
         } else if (player1.equals(rock) && player2.equals(scissors)) {
-            System.out.println();
             return win1;
         } else {
-            System.out.println();
-            return invalid;
+               return invalid;
         }
     }
 }
