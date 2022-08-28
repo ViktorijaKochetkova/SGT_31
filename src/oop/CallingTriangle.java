@@ -19,6 +19,6 @@ public class CallingTriangle {
         triangle1.setSide3(side3);
 
         System.out.println(triangle1.TriangleArea());
-        System.out.printf("Your triangles are is %.21f",triangle1.TriangleArea());
+        System.out.printf("Your triangles are is %.2f",triangle1.TriangleArea());
     }
 }
