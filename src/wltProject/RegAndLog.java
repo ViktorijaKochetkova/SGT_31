@@ -11,7 +11,7 @@ public class RegAndLog {
     public static void main(String[] args) {
         String dbURL = "jdbc:mysql://localhost:3306/java31";
         String username = "root";
-        String password = "V!kt0r1ja";
+        String password = ".";//insert your password
 
         Scanner scanner = new Scanner(System.in);
         char again = 'y';
