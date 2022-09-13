@@ -26,9 +26,9 @@ public class RegAndLog {
                 char action = scanner.nextLine().charAt(0);
                 if (action == 'y') {
                     System.out.println("Enter your ID number and password");
+                //Need create and insert login password check
 
-
-                } else if (action == 'n') {
+                } else if (action == 'n') {//need insert ,that can input only latin,only verbs and number,no symbols,without spaces(in password available insert symbols too)
                     System.out.println("Do you want to start job at us?");
                     System.out.println("Choose 'r' or 'q'");
                     System.out.println("r - register new driver");
