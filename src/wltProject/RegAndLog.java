@@ -7,7 +7,7 @@ import java.sql.PreparedStatement;
 import java.sql.SQLException;
 import java.util.Scanner;
 
-public class RegAndLog {
+/*public class RegAndLog {
     public static void main(String[] args) {
         String dbURL = "jdbc:mysql://localhost:3306/java31";
         String username = "root";
@@ -83,4 +83,4 @@ public class RegAndLog {
             System.out.println("Something was wrong");
         }
     }
-}
+}*/
